@@ -64,7 +64,7 @@ msd_lite的格式为http://路由器ip:端口/rtp/组播地址
 
 - **option60 Vendor Class：** `HEITV`
 - **option12 host name：** `机顶盒的STBID`
-
+- **额外认证参数** option sendopts 'x7d:XXXXXXX…..' 十六进制7d表示125 xxxx是发送十六进制的加密数据
 - **河北电信机顶盒操作码** `1301`
 
 - **itv密码** `118114`
